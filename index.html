@@ -753,7 +753,7 @@ function sayYes() {
     to_email : YOUR_EMAIL,
     date     : date,
     time     : time,
-  }).then(() => alert('sent!')).catch((err) => alert(JSON.stringify(err)));
+  }).catch((err) => alert(JSON.stringify(err)));
 }
 let noCount = 0;
 function runAway(btn) {
